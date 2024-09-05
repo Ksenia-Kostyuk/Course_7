@@ -31,8 +31,8 @@ class ValidatorConnectionHabit:
     """Проверяет являются ли связные привычки приятными"""
 
     def __init__(self, field_one, field_two):
-        self.field_one = field_one
-        self.field_two = field_two
+        self.field_one = field_one #pleasant_habit
+        self.field_two = field_two #connection_habit
 
     def __call__(self):
         if self.field_one is True and self.field_two is False:
