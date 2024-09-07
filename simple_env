@@ -1,0 +1,14 @@
+SECRET_KEY=django-insecure-vw)c%e=wy@3^y($#ay088gu2agqzwh$80c(s4oryrei%7kfr^g
+
+NAME=Course_7
+USER=postgres
+PASSWORD=Kkn_250600
+HOST=localhost
+PORT=1024
+
+CELERY_BROKER_URL=redis://localhost:6379/0
+CELERY_RESULT_BACKEND=redis://localhost:6379/0
+
+BOT_TOKEN=7516573608:AAG5zwOvahOPS0yRIyBKPfb7tFO7z7QetYQ
+
+CORS_ALLOWED_ORIGINS=["https://example.com", "http://localhost:3000"]
